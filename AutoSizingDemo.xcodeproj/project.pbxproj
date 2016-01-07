@@ -7,21 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B81729DE0BC0A4EA38C9000 /* Pods_AutoSizingDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4D4C436F27734F0FA9DE86 /* Pods_AutoSizingDemo.framework */; };
 		8EDD83A61C3E5A140079AECB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDD83A51C3E5A140079AECB /* AppDelegate.swift */; };
 		8EDD83A81C3E5A140079AECB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDD83A71C3E5A140079AECB /* ViewController.swift */; };
-		8EDD83AB1C3E5A140079AECB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EDD83A91C3E5A140079AECB /* Main.storyboard */; };
 		8EDD83AD1C3E5A140079AECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EDD83AC1C3E5A140079AECB /* Assets.xcassets */; };
 		8EDD83B01C3E5A140079AECB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EDD83AE1C3E5A140079AECB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3AAED22ECDF6D699C0AF096E /* Pods-AutoSizingDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoSizingDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoSizingDemo/Pods-AutoSizingDemo.release.xcconfig"; sourceTree = "<group>"; };
+		7A4D4C436F27734F0FA9DE86 /* Pods_AutoSizingDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutoSizingDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EDD83A21C3E5A140079AECB /* AutoSizingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoSizingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EDD83A51C3E5A140079AECB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EDD83A71C3E5A140079AECB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8EDD83AA1C3E5A140079AECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8EDD83AC1C3E5A140079AECB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EDD83AF1C3E5A140079AECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8EDD83B11C3E5A140079AECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C61CDCCF9E222B1C185AE8A9 /* Pods-AutoSizingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoSizingDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AutoSizingDemo/Pods-AutoSizingDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B81729DE0BC0A4EA38C9000 /* Pods_AutoSizingDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,8 @@
 			children = (
 				8EDD83A41C3E5A140079AECB /* AutoSizingDemo */,
 				8EDD83A31C3E5A140079AECB /* Products */,
+				A84689BC8BE53DA0D790E38E /* Pods */,
+				D64EA4EEB2DCB5727FEFE5F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +61,28 @@
 			children = (
 				8EDD83A51C3E5A140079AECB /* AppDelegate.swift */,
 				8EDD83A71C3E5A140079AECB /* ViewController.swift */,
-				8EDD83A91C3E5A140079AECB /* Main.storyboard */,
 				8EDD83AC1C3E5A140079AECB /* Assets.xcassets */,
 				8EDD83AE1C3E5A140079AECB /* LaunchScreen.storyboard */,
 				8EDD83B11C3E5A140079AECB /* Info.plist */,
 			);
 			path = AutoSizingDemo;
+			sourceTree = "<group>";
+		};
+		A84689BC8BE53DA0D790E38E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C61CDCCF9E222B1C185AE8A9 /* Pods-AutoSizingDemo.debug.xcconfig */,
+				3AAED22ECDF6D699C0AF096E /* Pods-AutoSizingDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D64EA4EEB2DCB5727FEFE5F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A4D4C436F27734F0FA9DE86 /* Pods_AutoSizingDemo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +92,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8EDD83B41C3E5A140079AECB /* Build configuration list for PBXNativeTarget "AutoSizingDemo" */;
 			buildPhases = (
+				CEA3A0062318876FEE6CE55C /* Check Pods Manifest.lock */,
 				8EDD839E1C3E5A140079AECB /* Sources */,
 				8EDD839F1C3E5A140079AECB /* Frameworks */,
 				8EDD83A01C3E5A140079AECB /* Resources */,
+				A0BF3391AB67685A25172150 /* Embed Pods Frameworks */,
+				18E1168000CB271F8E378D5E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,11 +148,58 @@
 			files = (
 				8EDD83B01C3E5A140079AECB /* LaunchScreen.storyboard in Resources */,
 				8EDD83AD1C3E5A140079AECB /* Assets.xcassets in Resources */,
-				8EDD83AB1C3E5A140079AECB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18E1168000CB271F8E378D5E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutoSizingDemo/Pods-AutoSizingDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0BF3391AB67685A25172150 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutoSizingDemo/Pods-AutoSizingDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEA3A0062318876FEE6CE55C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8EDD839E1C3E5A140079AECB /* Sources */ = {
@@ -143,14 +214,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8EDD83A91C3E5A140079AECB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8EDD83AA1C3E5A140079AECB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8EDD83AE1C3E5A140079AECB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -245,6 +308,7 @@
 		};
 		8EDD83B51C3E5A140079AECB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C61CDCCF9E222B1C185AE8A9 /* Pods-AutoSizingDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AutoSizingDemo/Info.plist;
@@ -256,6 +320,7 @@
 		};
 		8EDD83B61C3E5A140079AECB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AAED22ECDF6D699C0AF096E /* Pods-AutoSizingDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AutoSizingDemo/Info.plist;
@@ -284,6 +349,7 @@
 				8EDD83B61C3E5A140079AECB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
